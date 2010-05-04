@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>My editor</title>
+	<link rel="stylesheet" type="text/css" href="js/assets/editor.css" />
+
+	<script type="text/javascript" src="js/editor.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+	//<![CDATA[
+	window.onload = function() {
+		var editor = new Editor("editor");
+        editor.addButton('newb', {className: "pre_editor_newb",
+                                  title: "New",
+                                  click: function(event) {
+                                      event.data.editor._execCommand("bold");
+                                  }});
+	}
+	//]]></script>
+</head>
+<body>
+	<textarea id="editor">&lt;p&gt;Hello World&lt;/p&gt;</textarea>
+</body>
+</html>

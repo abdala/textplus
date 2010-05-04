@@ -1,0 +1,54 @@
+.pre-editor{clear: both}
+	
+.pre_editor_toolbar{ }
+.pre_editor_toolbar a{ float: left; margin: 0 3px 3px 0; text-decoration: none; background-image: url( icones/button.gif ); border: 1px solid black; }
+.pre_editor_button{ background-repeat: no-repeat; padding: 0px 8px; }
+
+.pre_editor_bold{ background-position: 0 0; }
+.pre_editor_italic{ background-position: 0 -36px; }
+.pre_editor_underline{ background-position: 0px -72px; }
+.pre_editor_createlink{ background-position: 0 -793px; }
+.pre_editor_color{ background-position: 0px -217px; }
+.pre_editor_bgcolor{ background-position: 0 -287px; }
+.pre_editor_justifyleft{ background-position: 0px -324px; }
+.pre_editor_justifycenter{ background-position: 0 -360px; }
+.pre_editor_justifyright{ background-position: 0px -396px; }
+.pre_editor_justifyfull{ background-position: 0 -432px; }
+.pre_editor_insertunorderedlist{ background-position: 0px -467px; }
+.pre_editor_insertorderedlist{ background-position: 0 -503px; }
+.pre_editor_indent{ background-position: 0 -721px; }
+.pre_editor_outdent{ background-position: 0 -685px; }
+.pre_editor_inserthorizontalrule{ background-position: 0px -827px;  }
+.pre_editor_alignobject{ background-position: 0px -865px;  }
+.pre_editor_inserthtml{ background-position: 1px -1322px; }
+.pre_editor_inserttable{ background-position: 0 -1353px; }
+.pre_editor_undo{ background-position: 0 -1381px; }
+.pre_editor_redo{ background-position: 0 -1407px; }
+.pre_editor_decreaseFontSize{ background-position: 0 -1452px; }
+.pre_editor_increaseFontSize{ background-position: 0 -1475px; }
+.pre_editor_removeFormat{ background-position: 1px -1496px; }
+
+.pre_editor_align{ height: 13px; width: 16px; border: 1px solid #000; margin: 5px; display: block; float: left; }
+a.pre_editor_align{ background-image: url( icones/align.gif );  }
+.pre_editor_align_left{ background-position: -1px -1px; }
+.pre_editor_align_right{ background-position: -18px -1px; }
+.pre_editor_align_center{ background-position: -1px -15px; }
+
+.pre_editor_alignobject_table, .pre_editor_inserthtml_table , .pre_editor_textAttributes , .pre_editor_table , .pre_editor_bgcolor_table{ position: absolute; border: 1px solid #000; background: #fff; z-index: 99999; }
+.pre_editor_color_table a , .pre_editor_bgcolor_table a{ text-decoration: none; }
+.pre_editor_color_table{ margin: 10px 10px 0 10px; border: 1px solid black; }
+a.pre_editor_table_link{ text-decoration: none; color: #000; }
+.pre_editor_textAttributes{ padding-bottom: 10px; }
+.pre_editor_textAttributes select{ margin: 10px 10px 0 10px; }
+
+.pre_editor_save{ border: 1px solid #000; padding: 5px 8px; background: #eee; }
+a.pre_editor_save{ color: #000; text-decoration: none; }
+.pre_editor_center{ position: absolute; top: 20px; left: 50%; margin: 0 0 0 -300px; width: 600px; height: 400px; z-index:10001; }
+embed{ background: gray; display: block; }
+
+#option li{ display: inline; }
+
+.pre-bgcolor,.pre-color{padding:9px 5px; width:198px; background-color:#FFFFFF; border:1px solid #C0C0C0; margin-bottom: 10px;}
+.pre-bgcolor ul,.pre-color ul{list-style: none; margin:0; padding:0; height:100%; overflow:hidden;}
+.pre-bgcolor ul li,.pre-color ul li{cursor:pointer; float:left; font-size:0; height:12px; line-height:0; margin:0 0 2px 4px; padding:0 0 2px !important; width:12px;}
+.pre-bgcolor ul li a,.pre-color ul li a{display:block; height:100%; width:100%;}
